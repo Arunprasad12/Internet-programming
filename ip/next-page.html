@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Bus</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="next-page.js" defer></script>
+  </head>
+  <body>
+    <div class="content-container">
+      <h1>Select Your Bus</h1>
+      <div class="bus-options">
+        <button
+          class="bus-option"
+          onclick="selectBus('Bus 1', '08:00', '12:00', '200')"
+        >
+          <div><h4>Bus 1</h4></div>
+          <div>08:00 - 12:00</div>
+          <div>Price: 200rs</div>
+        </button>
+        <button
+          class="bus-option"
+          onclick="selectBus('Bus 2', '09:00', '13:00', '250')"
+        >
+          <div><h4>Bus 2</h4></div>
+          <div>09:00 - 13:00</div>
+          <div>Price: 250rs</div>
+        </button>
+        <button
+          class="bus-option"
+          onclick="selectBus('Bus 3', '10:00', '14:00', '300')"
+        >
+          <div><h4>Bus 3</h4></div>
+          <div>10:00 - 14:00</div>
+          <div>Price: 300rs</div>
+        </button>
+        <button
+          class="bus-option"
+          onclick="selectBus('Bus 4', '11:00', '15:00', '350')"
+        >
+          <div><h4>Bus 4</h4></div>
+          <div>11:00 - 15:00</div>
+          <div>Price: 350rs</div>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
